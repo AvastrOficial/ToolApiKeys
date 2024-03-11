@@ -8,3 +8,6 @@ Desarrollo mejoraras , animaciones , estilos , deliziamientos mas fluidos , igua
 - se agrego nuevo estilo al menu 
 
 esto es lo que se agrego en esta vercion 
+![image](https://github.com/AvastrOficial/ToolApiKeys/assets/91764815/66d4965e-7ce6-4b5a-8821-39c5e14dc8ba)
+![image](https://github.com/AvastrOficial/ToolApiKeys/assets/91764815/0d24aaff-c6e1-4563-b554-b70aded51877)
+![image](https://github.com/AvastrOficial/ToolApiKeys/assets/91764815/00f40301-5efd-446f-9199-52b9592caaca)
