@@ -1,0 +1,69 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  
+      <link rel="icon" type="image/png" href="https://files.catbox.moe/6yamd7.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1  class= "txt" class=class="animate__animated animate__bounce">ARCHIVADOR - BSZ</h1>
+    <h3><p>Se permiten cargas de hasta 1G <p>Solo espera la carga el link se refleja en elaces guardados</p><a href="https://archivador.foroactivo.com/h2-2" class="boton-faq animate__animated animate__bounce">Preguntas Frecuentes</a></p></h3>
+  <hr class="separador">
+  <br></br>
+    <label for="fileInput" class="custom-file-input animate__animated animate__fadeIn">
+      Seleccionar Archivos
+      <input type="file" id="fileInput" multiple>
+    </label>
+    <button onclick="subirArchivos()" class="animate__animated animate__bounceInLeft"> <i class="fas fa-cloud-upload-alt icono-nube"></i>Subir Archivos</button>
+    <p id="linkContainer" style="display: none;" class="animate__animated animate__fadeInUp">
+      <strong>Enlace para compartir:</strong> <span id="link"></span>
+    </p>
+<br></br>
+    <hr class="separador">
+     <button id="clearCacheBtn" onclick="clearCache()">Borrar Listas</button>
+    <div id="cachedLinks"></div>
+   <div class="sumensaje">
+  <p class="message"><br><h2>Está totalmente financiado por los usuarios. ¿Considera apoyar?</h2></p>
+<p><div class="animate__animated animate__bounceInLeft">
+  <i class="fas fa-arrow-left"></i>
+</div>
+</p>
+ <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('avastroficial', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#00b9fe',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
+
+</div>
+  </div>
+
+  <div class="menu-toggle" onclick="toggleMenu()">
+  <img src="https://th.bing.com/th/id/OIP.NYGFtH-af57cxQcF3prOjQHaHa?rs=1&pid=ImgDetMain
+" alt="Menú">
+</div><div class="menu">
+  <div class="menu-content">
+   
+<center>
+    <p><h3>SIGEME EN MIS REDES SOCIALES</h3></p>
+</center>
+ <div class="social-icons">
+      <a href="https://github.com/AvastrOficial"><img src="https://th.bing.com/th/id/OIP.saZ1ZkS5sHDzRrd8GHUUAAHaHa?rs=1&pid=ImgDetMain" alt="GitHub"></a>
+      <a href="https://t.me/BSZ_CRACKING"><img src="https://th.bing.com/th/id/OIP.uuUChCkOK3Kmx3wf_-NlCAHaHa?rs=1&pid=ImgDetMain" alt="Telegram"></a>
+      <a href="https://www.projz.com/s/u/huoonaji2"><img src="https://wikiapk.com/wp-content/uploads/2020/09/930973_featured.png" alt="Otra Red Social"></a>
+    </div>
+  </div>
+</div>
+  
+  
+  <div class="image">
+  <img id="randomImage" src="" alt="Imagen aleatoria">
+</div>
+</body>
+</html>
