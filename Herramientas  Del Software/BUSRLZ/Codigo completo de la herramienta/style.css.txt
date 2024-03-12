@@ -1,0 +1,240 @@
+ body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'Noto Sans', 'Arial Unicode MS', 'Segoe UI Symbol', 'Code2000', sans-serif;
+    font-family: ;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+        .container {
+            width: 400px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"] {
+            width: calc(100% - 20px);
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="button"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="button"]:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 10px;
+        }
+      
+      
+      
+      .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 40px; /* Ajusta el ancho según el tamaño de tus íconos */
+  height: 40px; /* Ajusta la altura según el tamaño de tus íconos */
+  border-radius: 50%; /* Hace que los íconos sean circulares */
+  border: 2px solid #333; /* Borde de 2px sólido de color gris oscuro (#333) */
+  padding: 5px; /* Opcional: agrega un poco de espacio alrededor de los íconos */
+  box-sizing: border-box; /* Hace que el padding no afecte el tamaño total */
+  transition: transform 0.3s ease-in-out; /* Animación al pasar el cursor */
+}
+
+.social-icons img:hover {
+  transform: scale(1.1); /* Cambia el tamaño al pasar el cursor */
+}
+      
+      .separator {
+            width: 100%;
+            height: 1px; /* Grosor del separador */
+            background-color: #ffffff; /* Color del separador */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9); 
+            margin: 5px 0; /* Espacio alrededor del separador */
+        }
+      
+      
+      .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0s, opacity 0.5s;
+        }
+      
+        .popup-container {
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo gris semi-transparente */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000; /* Para asegurarse de que el popup esté por encima del contenido */
+        }
+        .popup {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            max-width: 80%; /* Ancho máximo del popup */
+            padding: 20px;
+            text-align: left;
+            position: relative; /* Para posicionar el botón de cerrar correctamente */
+        }
+        .popup h2 {
+            margin-top: 0;
+        }
+        .popup p {
+            margin-bottom: 20px;
+        }
+        .close-btn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .close-btn:hover {
+            background-color: #0056b3;
+        }
+      
+      .info-btn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 5px 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .info-btn:hover {
+            background-color: #0056b3;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        .info-btn.clicked {
+            animation: pulse 0.5s;
+        }
+      
+      .wrapper::before {
+  content: "";
+  display: block;
+  position: fixed;
+  width: 300%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  border-radius: 100%;
+  transform: translateX(-50%) skewY(-8deg);
+  background-color: lightblue; /* Cambiar a azul celeste */
+  z-index: -1;
+  animation: wave 8s ease-in-out infinite alternate;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(-50%) skewY(-8deg);
+  }
+  25% {
+    transform: translateX(-50%) skewY(8deg);
+  }
+  50% {
+    transform: translateX(-50%) skewY(-8deg);
+  }
+  75% {
+    transform: translateX(-50%) skewY(8deg);
+  }
+  100% {
+    transform: translateX(-50%) skewY(-8deg);
+  }
+}
+      
+   .cont {
+    position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+
+}
+
+#menuButton {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  z-index: 9999;
+   border-radius: 10px;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+   width: 130px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+.menu a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+.menu a:hover {
+  background-color: #555;
+}

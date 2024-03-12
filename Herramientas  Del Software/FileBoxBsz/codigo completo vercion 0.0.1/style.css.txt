@@ -1,0 +1,277 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+      max-width: 600px;
+      margin: auto; /* Esto centrará horizontalmente el contenedor */
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+      text-align: center;
+    }
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.link-container {
+  display: none;
+  margin-top: 20px;
+}
+
+.share-link a {
+  color: #065fd4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ .custom-file-input {
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Cambia el color de fondo cuando se pasa el ratón por encima */
+  .custom-file-input:hover {
+    background-color: #e0e0e0;
+  }
+
+  /* Estilo para ocultar el input real */
+  .custom-file-input input[type="file"] {
+    display: none;
+  }
+
+#cachedLinks {
+      border: 2px solid #ccc;
+      border-radius: 20px;
+      padding: 10px;
+      margin-top: 20px;
+  
+    }
+
+    #cachedLinks a {
+      display: block;
+      margin-bottom: 5px;
+      padding: 8px;
+      border-radius: 20px;
+      background-color: #f0f0f0;
+      text-decoration: none;
+      color: #333;
+      transition: background-color 0.3s ease;
+      
+    }
+
+    #cachedLinks a:hover {
+      background-color: #ccc;
+    }
+   .savedLink {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .savedLink p {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+
+    .savedLink a {
+      display: block;
+      padding: 8px;
+      border-radius: 20px;
+      background-color: #f0f0f0;
+      text-decoration: none;
+      color: #333;
+      transition: background-color 0.3s ease;
+    }
+
+    .savedLink a:hover {
+      background-color: #e0e0e0;
+    }
+
+ #clearCacheBtn {
+      margin-top: 10px;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 5px;
+      background-color: #f44336;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #clearCacheBtn:hover {
+      background-color: #d32f2f;
+    }
+  .menu-toggle {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.menu {
+  width: 300px;
+  height: 0;
+  background-color: #f0f0f0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+}
+
+.menu-content {
+  padding: 20px;
+  color: #333;
+}
+
+.show-menu {
+  height: 200px; /* Ajusta la altura según sea necesario */
+}
+
+.menu-toggle img {
+  width: 50px; /* Ajusta el ancho según el tamaño de tu icono */
+  height: 50px; /* Ajusta la altura según el tamaño de tu icono */
+  border-radius: 50%; /* Hace que la imagen sea circular */
+  border: 2px solid #333; /* Borde de 2px sólido de color gris oscuro (#333) */
+  padding: 5px; /* Opcional: agrega un poco de espacio alrededor de la imagen */
+  box-sizing: border-box; /* Hace que el padding no afecte el tamaño total */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 40px; /* Ajusta el ancho según el tamaño de tus íconos */
+  height: 40px; /* Ajusta la altura según el tamaño de tus íconos */
+  border-radius: 50%; /* Hace que los íconos sean circulares */
+  border: 2px solid #333; /* Borde de 2px sólido de color gris oscuro (#333) */
+  padding: 5px; /* Opcional: agrega un poco de espacio alrededor de los íconos */
+  box-sizing: border-box; /* Hace que el padding no afecte el tamaño total */
+  transition: transform 0.3s ease-in-out; /* Animación al pasar el cursor */
+}
+
+.social-icons img:hover {
+  transform: scale(1.1); /* Cambia el tamaño al pasar el cursor */
+}
+
+   .txt{
+  font-family:verdana;
+  font-size:50px;
+  color: #ffffff;
+  text-shadow: 5px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
+}
+  
+   .message {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .support-link {
+      display: inline-block;
+      text-decoration: none;
+      border-radius: 4px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .support-link img {
+      vertical-align: middle;
+    }
+
+    .support-link:hover {
+      transform: scale(1.1);
+    }
+ .sumensaje {
+      text-align: center;
+      border-radius: 20px;
+      border: 10px solid #fff; 
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+      background-color: #fff;
+    }
+  
+   .separador {
+      border: none;
+      border-top: 2px solid #ccc; /* Grosor y color del separador */
+      margin: 20px 0; /* Margen superior e inferior para el separador */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    }
+  
+div.image {
+    position: fixed;
+    right: -40px;
+    bottom: -40px;
+    z-index: -1;
+}
+  .boton-faq {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      border: none;
+      font-weight: bold;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    /* Estilos al pasar el cursor sobre el botón */
+    .boton-faq:hover {
+      background-color: #0056b3;
+    }
+   .icono-nube {
+      margin-right: 10px;
+    }

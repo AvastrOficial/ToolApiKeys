@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acortador de URL</title>
+   <div class="wrapper" ></div>
+ 
+      <!--
+    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⣹⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢁⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣤⣴⣶⣾⣿⣿⣿⣿⣶⣶⣤⣀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣿⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⡀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡅⠠⣄⠀⠀⠀⠀⢀⠔⣱⣿⠇⠀
+⠀⠀⠀⠀⠀⠀⢐⣵⡿⢷⣦⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡑⠢⡀⠀⣡⣾⣿⠏⠀⠀
+⠀⠀⠀⠓⠒⣺⣿⣿⠄⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠛⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣴⣿⣿⣿⢇⠀⠀⠀
+⠀⠀⠀⠀⣼⣿⣿⣿⣤⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⢹⣿⣿⡿⡧⠁⠀⠀⠀
+⠀⠀⠀⣼⣿⣿⡏⢈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⢀⡜⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⣹⠋⠀⠀⠀⠀⠀⠀
+⠀⠀⢰⣿⣿⣿⣄⢾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠐⣒⡛⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⢤⣾⣿⣿⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⠛⠻⢿⣿⣿⣿⣿⣿⣿⣿⠉⠓⣼⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⠁⠀⠀⡀⢉⣽⢆⠀⣾⠿⢿⣿⠟⠟⠛⢷⣿⣿⣿⣿⡷⡄⠀⠀⠀⠀⠀
+⠀⠀⢻⣿⣿⣿⣿⣿⣿⠿⢿⣿⣿⣿⣿⣿⣿⣿⠛⠤⣤⠤⠧⠘⠛⠚⠆⠀⠀⠋⠁⣄⣨⡿⠀⢹⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⢸⣿⣿⣿⣟⡟⠛⣟⣹⠿⣿⣿⣿⣿⣿⠿⣷⢛⡽⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⠋⠁⡠⢼⣿⣟⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠘⣿⣿⣿⣿⣿⣦⠘⣿⣄⠀⠙⣿⣿⠿⠷⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠚⢻⣳⡟⠂⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢹⣿⣿⣿⣿⣿⣷⣜⠛⠒⠤⣽⣿⡄⠀⠀⠀⠀⠀⠀⣰⣖⢒⣶⣢⠤⠿⣄⠀⠀⠀⠀⠀⣼⡟⢱⠈⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣷⣤⣶⣿⣿⢷⣄⠀⠀⠀⠀⠀⣿⡿⣿⣿⣿⣿⡀⠻⡟⠀⠀⠀⣰⣿⡇⠘⡄⠀⠀⠀⠀⠀⠀
+⠀⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡈⠀⠀⠀⠀⠀⠙⢄⡈⠉⠹⣿⣧⠀⠘⢦⣠⣾⡿⠿⡇⠀⢻⠢⠀⠀⠀⠀⠀
+⢀⡾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠲⠄⠀⠀⠀⠀⠀⠈⠉⠚⠋⠁⠳⣄⡸⠉⡟⠀⢀⡜⣄⡀⠧⡑⢄⠀⠀⠀
+⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⣠⣄⣤⣄⣀⡀⠀⠀⢀⣴⣿⠁⢸⠀⠀⣸⣤⠤⠀⠀⢱⡀⢢⠀⠀
+⠀⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⠛⠛⢿⣿⣿⣻⡟⠻⣿⣿⣿⣿⣿⣿⣤⣿⣿⣿⣿⣿⣿⡗⠉⠉⣋⣵⠓⡤⠄⠀⠀⠱⡀⠃⠀
+⠀⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⡶⠆⠩⠥⣙⡿⠟⠉⠿⠋⠉⠙⢿⣿⠀⠐⢲⠗⠙⠻⣿⡄⠀⠀⠀⠑⡄⠀
+⠀⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⣇⠀⠀⠀⠀⠉⠢⠀⠀⠀⠠⠒⠉⠉⢣⡀⠊⠀⠀⠀⠹⠷⡀⠀⠀⠀⠸⡀
+⠀⠌⢿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣄⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⠒⠤⣄⡀⠀⠀⠈⠁⢠⣤⣤⣧
+⠀⠀⠈⢻⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠛⠛⠓⠲⠈⠈⠒⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠶⠶⠞⠛⠛⠛⠛
+⠀⠀⠀⠀⠙⡦⠤⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠒⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+    
+    
+    si deceas ver codigo visita el repositorio :
+    https://github.com/AvastrOficial/BUSRLZ-Acortador-de-Enlaces
+    -->
+</head>
+<body>
+  <div class="cont">
+  <button id="menuButton">☰ </button>
+  <div class="menu" id="menu">
+    <a href="https://archivador.foroactivo.com/">Archivador - BSZ</a>
+     <div class="separator"></div>
+    <a href="https://archivador.foroactivo.com/h3-bszinbox-magic">BSZinbox Magic</a>
+     <div class="separator"></div>
+    <a href="https://archivador.foroactivo.com/h4-blazeshotz">Blazeshot Filtros de Fotos</a>
+     <div class="separator"></div>
+    <a href="https://fileboxbsz.foroactivo.com/h8-bnapsuzz">BnapSuzZ Capturador Web</a>
+     <div class="separator"></div>
+    <a href="https://fileboxbsz.foroactivo.com/h7-bsnapzen">BSnapZen Generador De Imagenes</a>
+     <div class="separator"></div>
+     <a href="https://fileboxbsz.foroactivo.com/h6-codez-bsz">CodeZ Incriptador Web</a>
+     <div class="separator"></div>
+     <a href="https://fileboxbsz.foroactivo.com/h5-secukey-bsz">Secukey Generador De Password</a>
+  </div>
+</div>
+  
+    <div class="container">
+<center>
+        <h1>BUSRLZ</h1>
+<p> <h3> Acortador de Enlaces </h3></p>
+</center>
+        <input type="text" id="originalUrl" placeholder="Introduce la URL">
+        <input type="text" id="personalization" placeholder="Personalización (opcional)">
+        <input type="button" value="Acortar" onclick="acortarURL()">
+        <div class="result" id="shortenedUrl"></div>
+  
+ <button class="info-btn" onclick="openPopup()">Información</button>
+ <button class="info-btn" onclick="redirectToApi()">Api</button>
+ <button class="info-btn" onclick="redirectToDocumentacion()">Documentacion</button>
+
+             <div class="separator"></div>
+    <center>
+    <p><h3>SIGEME EN MIS REDES SOCIALES</h3></p>
+    
+</center>
+ <div class="social-icons">
+      <a href="https://github.com/AvastrOficial"><img src="https://th.bing.com/th/id/OIP.saZ1ZkS5sHDzRrd8GHUUAAHaHa?rs=1&pid=ImgDetMain" alt="GitHub"></a>
+      <a href="https://t.me/BSZ_CRACKING"><img src="https://th.bing.com/th/id/OIP.uuUChCkOK3Kmx3wf_-NlCAHaHa?rs=1&pid=ImgDetMain" alt="Telegram"></a>
+      <a href="https://www.projz.com/s/u/huoonaji2"><img src="https://wikiapk.com/wp-content/uploads/2020/09/930973_featured.png" alt="Otra Red Social"></a>
+    </div>
+  
+    </div>
+
+
+ <div class="overlay" id="overlay">
+        <div class="popup-container">
+        <div class="popup">
+            <h2>¿Cómo funciona?</h2>
+            <p>Entrada de URL larga: El usuario ingresa una URL larga en un campo de entrada proporcionado por el servicio de acortamiento de URL.</p>
+
+            <p>Generación de URL corta: El servicio de acortamiento de URL toma la URL larga ingresada por el usuario y la asigna a una URL más corta que apunta a la misma dirección. Esto generalmente implica usar un algoritmo para generar una cadena más corta que represente la URL original.</p>
+
+            <p>Redirección: Cuando alguien accede a la URL corta generada, el servicio de acortamiento de URL redirige automáticamente al visitante a la URL original.</p>
+
+            <p>Estadísticas (opcional): Algunos servicios de acortamiento de URL ofrecen características adicionales, como estadísticas sobre cuántas veces se ha hecho clic en la URL corta y desde qué ubicaciones geográficas se han realizado los clics.</p>
+
+            <p>En resumen, un acortador de URL toma una URL larga y la reemplaza por una versión más corta que redirige a la URL original cuando se accede. Esto puede ser útil para compartir enlaces en plataformas con limitaciones de espacio o para rastrear clics en enlaces compartidos.</p>
+
+            <button class="close-btn" onclick="closePopup()">Cerrar</button>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
