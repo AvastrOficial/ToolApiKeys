@@ -10,3 +10,5 @@ mejoramos el trascurso de el creador correos temporales donde ya podras personal
 - se agrego mas animadoras en la pagina, 14 gifs nuevos 
 
 ## imagenes relacionados a la actualizacion :
+![image](https://github.com/AvastrOficial/ToolApiKeys/assets/91764815/061717ff-09d0-4f51-bb87-fa3d285a6636)
+![image](https://github.com/AvastrOficial/ToolApiKeys/assets/91764815/a1f74aa3-3cd3-4566-9cc2-2821f8ea9ce8)
