@@ -1,0 +1,102 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSZInbox Magic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">BSZInbox Magic</h1>
+      <div class="separator"></div>
+
+ 
+    <input type="text" id="name" required placeholder="Personaliza tu correo">
+     
+    <select id="domain">
+       <option selected>Seleciona tu Dominio</option>
+        <option value="1secmail.com" data-prefer="0">@1secmail.com</option>
+        <option value="1secmail.org" data-prefer="0">@1secmail.org</option>
+        <option value="1secmail.net" data-prefer="0">@1secmail.net</option>
+        <option value="icznn.com" data-prefer="1">@icznn.com</option>
+        <option value="ezztt.com" data-prefer="1">@ezztt.com</option>
+        <option value="vjuum.com" data-prefer="1">@vjuum.com</option>
+        <option value="laafd.com" data-prefer="1" >@laafd.com</option>
+        <option value="txcct.com" data-prefer="1">@txcct.com</option>
+    </select>
+      <br>
+      
+        <button id="generateEmail" class="button">Generar Correo</button>
+        <a id="viewMessages" href="#" target="_blank" class="button">Ver Buzon<span id="notificationBadge"></span></a>
+          <br>
+      <button id="showTableButton">Ver Correos Generados</button>
+        <p id="generatedEmail" class="generated-email">Preciona a generar correo<div class="separator2"></div></p><p><span id="email" class="email">
+          
+        </span></p>
+
+
+        <div id="messages" class="messages">
+            <h4 class="messages-title">Preciona ver Buzon</h4>
+          
+
+            <p><ul id="messagesList" class="messages-list"></ul></p>
+        </div>
+  
+  
+  
+  
+   <div class="separator"></div>
+  <center>
+    <p><h3>SIGEME EN MIS REDES SOCIALES</h3></p>
+</center>
+ <div class="social-icons">
+      <a href="https://github.com/AvastrOficial"><img src="https://th.bing.com/th/id/OIP.saZ1ZkS5sHDzRrd8GHUUAAHaHa?rs=1&pid=ImgDetMain" alt="GitHub"></a>
+      <a href="https://t.me/+sOf-gqn6SClmNDcx"><img src="https://th.bing.com/th/id/OIP.uuUChCkOK3Kmx3wf_-NlCAHaHa?rs=1&pid=ImgDetMain" alt="Telegram"></a>
+      <a href="https://www.projz.com/s/u/huoonaji2"><img src="https://wikiapk.com/wp-content/uploads/2020/09/930973_featured.png" alt="Otra Red Social"></a>
+    </div>
+  </div>
+</div>
+
+<div class="image">
+  <img id="randomImage" >
+</div>
+
+    </div>
+
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('avastroficial', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'gustas Donar',
+    'floating-chat.donateButton.background-color': '#e74c3c',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
+ <div id="alert" class="alert"></div>
+
+<div class="tabla" class="overlay" style="display: none;">
+  <div ></div>
+<table id="dataTable" border="1" >
+  <div class="close-btn">X</div>
+  <thead>
+    <tr>
+      <th>Borrar</th>
+      <th>Correos Generados</th>
+      <th>Correos</th>
+      <th>Nombres Personalizado</th>
+      <th>Buzón</th>
+      <th>Fecha y Hora</th>
+    </tr>
+  </thead>
+  <tbody id="dataBody">
+    <!-- Aquí se agregarán las filas dinámicamente -->
+  </tbody>
+  </table>
+ </div>
+</div>
+
+  
+    <script src="script.js"></script>
+</body>
+</html>
