@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+button, a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+button:hover, a:hover {
+    background-color: #6c5ce7;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(108, 92, 231, 0.5);
+}
+
+#viewMessages {
+    background-color: #f39c12;
+}
+
+#notificationBadge {
+    background-color: #e74c3c;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 50%;
+    margin-left: 5px;
+    display: none;
+}
+
+#generatedEmail {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #3498db;
+}
+
+#messages {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #F7B914;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.generated-email {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #3498db;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 0.8s ease-out 0.5s forwards;
+    color :#F7B914;
+}
+
+.email {
+    color: #F7B914;
+    font-weight: bold;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.separator {
+    margin: 20px 0;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.separator::before {
+    margin-right: 10px;
+}
+
+.separator::after {
+    margin-left: 10px;
+}
+
+.separator2 {
+    margin: 20px 0;
+    border-top: 2px solid #ccc;
+}

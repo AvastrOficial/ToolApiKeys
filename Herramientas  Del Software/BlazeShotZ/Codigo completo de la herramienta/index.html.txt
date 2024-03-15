@@ -1,0 +1,318 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <title>Instagram Style Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="wrapper" >
+
+    <h1 class="letra">BlazeShotz - BSZ</h1>
+    <!-- Barra de navegación, logotipo, menú, etc. -->
+  
+    <nav>
+      <ul>
+        <li><a id="enlace-documentacion">Documentacion</a></li>
+          <li><a href="#" id="subir-foto-link">Subir Foto <i class="fas fa-camera" style="color: black;"></i></a></li>
+      </ul>
+      <!-- Input de tipo file oculto -->
+      <input type="file" id="file-input" style="display: none;" accept="image/*">
+    </nav>
+    
+   </div>
+    
+
+        <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+        <script>
+            kofiWidgetOverlay.draw('avastroficial', {
+                'type': 'floating-chat',
+                'floating-chat.donateButton.text': 'Donar',
+                'floating-chat.donateButton.background-color': '#ff8c00',
+                'floating-chat.donateButton.text-color': 'black'
+            });
+          
+            // Función para abrir la URL al hacer clic en el enlace de documentación
+            document.getElementById('enlace-documentacion').addEventListener('click', function() {
+                window.open('https://github.com/AvastrOficial/BlazeShotZ-BSZ', '_blank');
+            });
+        </script>
+
+    
+  </header>
+<center>
+<p> <h3>Todos Los Estilos</h3></p>
+</center>
+  
+  <div class="confirmation-overlay" id="rotateAnimationImage">
+  <div class="confirmation-message">
+   <h1> Se ha guardado correctamente tu foto , Gracias por usar BlazeShotZ</h1>
+  </div>
+</div>
+  
+  <main>
+    <div class="gallery">
+      
+  <div>
+      <div class="photo" id="originalImage">
+         <img>
+        <p>Imagen Original</p>
+      </div>
+    </div>
+
+  <div>
+      <div class="photo" id="blancoYNegro">
+         <img>
+        <p>Estilo Blanco y Negro</p>
+         <button class="guardarImagen"  data-target="#blancoYNegro" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+   </div>
+      
+       <div>
+      <!-- Imagen con filtro sepia -->
+      <div class="photo" id="sepiaImage">
+        <img>
+        <p>Estilo Sepia</p>
+        <button class="guardarImagen" data-target="#sepiaImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>    
+    </div>
+
+    <div>
+      <!-- Imagen con filtro de saturación -->
+      <div class="photo" id="saturateImage">
+        <img>
+        <p>Estilo Brilloso</p>
+           <button class="guardarImagen" data-target="#saturateImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>   
+    </div>
+      
+      
+       <div>
+      <!-- Imagen con filtro sepia -->
+      <div class="photo" id="brightnessImage">
+        <img>
+        <p>Estilo brightness</p>
+           <button class="guardarImagen" data-target="#brightnessImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+
+    <div>
+      <!-- Imagen con filtro de saturación -->
+      <div class="photo" id="contrastImage">
+        <img>
+        <p>Estilo Costraste</p>
+         <button class="guardarImagen" data-target="#contrastImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+      
+         <div>
+      <!-- Imagen con filtro sepia -->
+      <div class="photo" id="blurImage">
+        <img>
+        <p>Estilo Borroso</p>
+         <button class="guardarImagen" data-target="#blurImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+
+    <div>
+      <!-- Imagen con filtro de saturación -->
+      <div class="photo" id="opacityImage">
+        <img>
+        <p>Estilo Opacidad</p>
+         <button class="guardarImagen" data-target="#opacityImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+      
+      <!-- Imagen con filtro de colores -->
+      
+      
+    <div>
+      <!-- Imagen con filtro de tono azulado -->
+      <div class="photo" id="blueToneImage">
+        <img>
+        <p>Estilo Azulado</p>
+         <button class="guardarImagen" data-target="#blueToneImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+
+    <div>
+      <!-- Imagen con filtro de tono anaranjado -->
+      <div class="photo" id="orangeToneImage">
+       <img>
+        <p>Estilo Anaranjado</p>
+         <button class="guardarImagen" data-target="#orangeToneImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+      
+      <div>
+      <!-- Imagen con filtro de tono anaranjado -->
+      <div class="photo" id="pinkToneImage">
+        <img>
+        <p>Estilo Rosa</p>
+         <button class="guardarImagen" data-target="#pinkToneImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+      
+      <div>
+      <!-- Imagen con filtro de tono anaranjado -->
+      <div class="photo" id="greenToneImage">
+        <img>
+        <p>Estilo Verde</p>
+         <button class="guardarImagen" data-target="#greenToneImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+      
+      <div>
+      <!-- Imagen con filtro de tono anaranjado -->
+      <div class="photo" id="purpleToneImage">
+        <img>
+        <p>Estilo Morado</p>
+         <button class="guardarImagen" data-target="#purpleToneImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+      
+      <div>
+      <!-- Imagen con filtro de tono anaranjado -->
+      <div class="photo" id="yellowToneImage">
+        <img>
+        <p>Estilo Amarillo</p>
+           <button class="guardarImagen" data-target="#yellowToneImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+      
+      
+      
+       <div> 
+       <div class="photo" id="filtroDistorcionGota">
+    <svg width="0" height="0">
+  <filter id="displacementFilter">
+    <feTurbulence type="fractalNoise" baseFrequency="0.1" numOctaves="2" />
+    <feDisplacementMap in="SourceGraphic" scale="30" />
+  </filter>
+</svg>
+  <img>
+  <p>Estilo Distorcion en Gota</p>
+         <button class="guardarImagen" data-target="#filtroDistorcionGota" onclick="mostrarMensaje()">Guardar Imagen</button>
+</div>
+</div>
+    
+
+    <div>
+      <!-- Imagen con filtro de saturación -->
+      <div class="photo" id="shadowEffectImage">
+        <img>
+        <p>Estilo Sombreado</p>
+        <button class="guardarImagen" data-target="#shadowEffectImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+      
+       <div>
+      <!-- Imagen con filtro rotativo -->
+      <div class="photo" id="rotateEffectImage">
+        <img>
+        <p>Efecto Rotativo</p>
+         <button class="guardarImagen" data-target="#rotateEffectImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+
+    <div>
+      <!-- Imagen con filtro inverso -->
+      <div class="photo" id="invertEffectImage">
+        <img>
+        <p>Efecto Inverso</p>
+        <button class="guardarImagen" data-target="#invertEffectImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+
+    <div>
+      <!-- Imagen con combinación de filtros -->
+      <div class="photo" id="combinationEffectImage">
+        <img>
+        <p>Combinación de Filtros</p>
+        <button class="guardarImagen" data-target="#combinationEffectImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+      
+       <div>
+      <!-- Imagen con combinación de filtros -->
+      <div class="photo" id="filtrogris">
+        <img>
+        <p>Estilo Opaco Gris</p>
+         <button class="guardarImagen" data-target="#filtrogris" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+      
+      
+      <!-- Imagen con animación -->
+      
+       <div>
+      <!-- Imagen con animación de rotación -->
+      <div class="photo" id="rotateAnimationImage">
+        <img>
+        <p>Animación de Rotación</p>
+         <button class="guardarImagen" data-target="#rotateAnimationImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+
+    <div>
+      <!-- Imagen con animación de escala -->
+      <div class="photo" id="scaleAnimationImage">
+        <img>
+        <p>Animación de Zoom Lento</p>
+                 <button class="guardarImagen" data-target="#rotateAnimationImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+      
+      <div>
+      <!-- Imagen con animación de escala -->
+      <div class="photo" id="opacityAnimationImage">
+        <img>
+        <p>Animación de Opacidades</p>
+                 <button class="guardarImagen" data-target="#rotateAnimationImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+      
+       <div>
+      <!-- Imagen con animación de escala -->
+      <div class="photo" id="translateAnimationImage">
+        <img>
+        <p>Animación de Trasparencia</p>
+                 <button class="guardarImagen" data-target="#rotateAnimationImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+      
+       <div>
+      <!-- Imagen con animación de escala -->
+      <div class="photo" id="colorChangeAnimationImage">
+        <img>
+        <p>Animación de Multicolor</p>
+                 <button class="guardarImagen" data-target="#rotateAnimationImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+      
+       <div>
+      <!-- Imagen con animación de escala -->
+      <div class="photo" id="bounceScaleAnimationImage">
+        <img>
+        <p>Animación de Zoom Rapido</p>
+                 <button class="guardarImagen" data-target="#rotateAnimationImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+
+      
+      <div>
+      <!-- Imagen con animación de escala -->
+      <div class="photo" id="filtroBrightnessImage">
+        <img>
+        <p>Animación de brillo</p>
+                 <button class="guardarImagen" data-target="#rotateAnimationImage" onclick="mostrarMensaje()">Guardar Imagen</button>
+      </div>
+    </div>
+      
+      
+  </main>
+ 
+</body>
+</html>

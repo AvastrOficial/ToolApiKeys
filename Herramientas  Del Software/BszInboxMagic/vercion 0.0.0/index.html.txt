@@ -1,0 +1,27 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSZInbox Magic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">BSZInbox Magic</h1>
+      <div class="separator"></div>
+
+        <button id="generateEmail" class="button">Generar Correo</button>
+        <a id="viewMessages" href="#" target="_blank" class="button">Ver Buzon<span id="notificationBadge"></span></a>
+        <p id="generatedEmail" class="generated-email">Preciona a generar correo<div class="separator2"></div></p><p><span id="email" class="email"></span></p>
+
+
+        <div id="messages" class="messages">
+            <h4 class="messages-title">Preciona ver Buzon</h4>
+
+            <p><ul id="messagesList" class="messages-list"></ul></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
