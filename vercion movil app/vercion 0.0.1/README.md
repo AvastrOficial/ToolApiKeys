@@ -20,7 +20,6 @@ el uso pratico y sensillo del usuario cliente como desarroladores
 
 ![image](https://github.com/AvastrOficial/ToolApiKeys/assets/91764815/752d756e-b24c-47ed-a83f-ce2c94688178)
 
-![image](https://github.com/AvastrOficial/ToolApiKeys/assets/91764815/a5413d17-d586-478d-ae48-b712b65a867b)
 ## chat de reportes 
 ![image](https://github.com/AvastrOficial/ToolApiKeys/assets/91764815/743d9841-71f5-498e-92c6-5e218bbf55ae)
 
