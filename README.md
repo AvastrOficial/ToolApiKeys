@@ -10,8 +10,13 @@ https://toolapikey.foroactivo.com/
 ### link pagin aweb vercion movil :
 https://toolapikey.foroactivo.com/h2-vista-movile
 
+#### /////////////////////////////////////////////
+
 ### documentacion completa documento IEEE 830-1993 :
 archivo echo powerpoint : https://files.catbox.moe/die0jx.pptx
 
 ### descripcion general documentado :
 archivo echo por pdf : https://files.catbox.moe/ua9uk6.pdf
+
+### descripcion de nuestra vicion :
+archivo echo por powerpoint : https://files.catbox.moe/d8vbua.pptx
