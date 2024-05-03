@@ -1,0 +1,313 @@
+<html>
+<head>
+  <!--  inicio -->
+ <!--
+    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⣹⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢁⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣤⣴⣶⣾⣿⣿⣿⣿⣶⣶⣤⣀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣿⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⡀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡅⠠⣄⠀⠀⠀⠀⢀⠔⣱⣿⠇⠀
+⠀⠀⠀⠀⠀⠀⢐⣵⡿⢷⣦⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡑⠢⡀⠀⣡⣾⣿⠏⠀⠀
+⠀⠀⠀⠓⠒⣺⣿⣿⠄⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠛⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣴⣿⣿⣿⢇⠀⠀⠀
+⠀⠀⠀⠀⣼⣿⣿⣿⣤⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⢹⣿⣿⡿⡧⠁⠀⠀⠀
+⠀⠀⠀⣼⣿⣿⡏⢈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⢀⡜⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⣹⠋⠀⠀⠀⠀⠀⠀
+⠀⠀⢰⣿⣿⣿⣄⢾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠐⣒⡛⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⢤⣾⣿⣿⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⠛⠻⢿⣿⣿⣿⣿⣿⣿⣿⠉⠓⣼⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⠁⠀⠀⡀⢉⣽⢆⠀⣾⠿⢿⣿⠟⠟⠛⢷⣿⣿⣿⣿⡷⡄⠀⠀⠀⠀⠀
+⠀⠀⢻⣿⣿⣿⣿⣿⣿⠿⢿⣿⣿⣿⣿⣿⣿⣿⠛⠤⣤⠤⠧⠘⠛⠚⠆⠀⠀⠋⠁⣄⣨⡿⠀⢹⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⢸⣿⣿⣿⣟⡟⠛⣟⣹⠿⣿⣿⣿⣿⣿⠿⣷⢛⡽⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⠋⠁⡠⢼⣿⣟⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠘⣿⣿⣿⣿⣿⣦⠘⣿⣄⠀⠙⣿⣿⠿⠷⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠚⢻⣳⡟⠂⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢹⣿⣿⣿⣿⣿⣷⣜⠛⠒⠤⣽⣿⡄⠀⠀⠀⠀⠀⠀⣰⣖⢒⣶⣢⠤⠿⣄⠀⠀⠀⠀⠀⣼⡟⢱⠈⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣷⣤⣶⣿⣿⢷⣄⠀⠀⠀⠀⠀⣿⡿⣿⣿⣿⣿⡀⠻⡟⠀⠀⠀⣰⣿⡇⠘⡄⠀⠀⠀⠀⠀⠀
+⠀⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡈⠀⠀⠀⠀⠀⠙⢄⡈⠉⠹⣿⣧⠀⠘⢦⣠⣾⡿⠿⡇⠀⢻⠢⠀⠀⠀⠀⠀
+⢀⡾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠲⠄⠀⠀⠀⠀⠀⠈⠉⠚⠋⠁⠳⣄⡸⠉⡟⠀⢀⡜⣄⡀⠧⡑⢄⠀⠀⠀
+⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⣠⣄⣤⣄⣀⡀⠀⠀⢀⣴⣿⠁⢸⠀⠀⣸⣤⠤⠀⠀⢱⡀⢢⠀⠀
+⠀⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⠛⠛⢿⣿⣿⣻⡟⠻⣿⣿⣿⣿⣿⣿⣤⣿⣿⣿⣿⣿⣿⡗⠉⠉⣋⣵⠓⡤⠄⠀⠀⠱⡀⠃⠀
+⠀⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⡶⠆⠩⠥⣙⡿⠟⠉⠿⠋⠉⠙⢿⣿⠀⠐⢲⠗⠙⠻⣿⡄⠀⠀⠀⠑⡄⠀
+⠀⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⣇⠀⠀⠀⠀⠉⠢⠀⠀⠀⠠⠒⠉⠉⢣⡀⠊⠀⠀⠀⠹⠷⡀⠀⠀⠀⠸⡀
+⠀⠌⢿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣄⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⠒⠤⣄⡀⠀⠀⠈⠁⢠⣤⣤⣧
+⠀⠀⠈⢻⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠛⠛⠓⠲⠈⠈⠒⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠶⠶⠞⠛⠛⠛⠛
+⠀⠀⠀⠀⠙⡦⠤⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠒⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+    
+    
+    si deceas ver codigo visita el repositorio :
+    https://github.com/AvastrOficial/ToolApiKeys
+    -->
+  
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content=="IE=edge"/>
+<meta name="google" value="notranslate"/>
+<title>ToolApiKey</title>
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+</head>
+<body>
+
+  
+  <div class="iniciar">
+  <!-- Contenido que deseas ocultar -->
+<center>
+       <div class="wrapper">
+        <div id="registro">
+            <h1>Inicio sesión</h1>
+            <form id="loginForm" action="https://toolapikey.foroactivo.com/login" method="POST">
+                <div class="input-box">
+                    <input id="usernameInput" type="text" placeholder="Nombre de usuario" required>
+                </div>
+                <div class="input-box">
+                    <input id="passwordInput" type="password" placeholder="Contraseña" required>
+                    <span class="password-toggle" onclick="togglePasswordVisibility()"></span>
+                </div>
+                <button type="button" onclick="validarYEnviar()">Iniciar sesión</button>
+                <p>Si no tienes una cuenta, presiona </p>
+<button type="submit">Registrarse</button>
+            </form>
+        </div>
+    </div>
+  </center>
+<nr>
+<center>
+    <p><h3>SIGEME EN MIS REDES SOCIALES</h3></p>
+</center>
+ <div class="social-icons">
+      <a href="https://github.com/AvastrOficial"><img src="https://th.bing.com/th/id/OIP.saZ1ZkS5sHDzRrd8GHUUAAHaHa?rs=1&pid=ImgDetMain" alt="GitHub"></a>
+      <a href="https://t.me/+cqr1DPkI2vMxZGVh"><img src="https://th.bing.com/th/id/OIP.uuUChCkOK3Kmx3wf_-NlCAHaHa?rs=1&pid=ImgDetMain" alt="Telegram"></a>
+      <a href="https://www.projz.com/s/u/huoonaji2"><img src="https://wikiapk.com/wp-content/uploads/2020/09/930973_featured.png" alt="Otra Red Social"></a>
+    </div>
+  
+  
+    <div class="popup" id="popup">
+    <p class="popup-title">ToolApiKey</p>
+<p>Para que es la app?</p>
+    <p class="popup-description">Es un dessarrollo de investigaciones basado en apis y herramientas oline</p>
+   
+    <button class="popup-button" id="popup-button">Cerrar</button>
+  </div>
+  
+  
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('avastroficial', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'gustas Donar',
+    'floating-chat.donateButton.background-color': '#e74c3c',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
+
+   
+</div>
+  
+   <div class="contactar">
+     
+     
+     
+     
+     </div>
+   <div class="actualizar">
+     
+ <br>  
+  <div class="iframe-container">
+    <iframe src="https://toolapikey.foroactivo.com/h13-actualizaciones" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+     </div>
+  
+  
+  
+  
+  
+
+
+</div>
+  <nav class="main-menu" >  
+    <div class="version">vercion:0.0.1</div>
+<div class="settings"></div>
+<div class="scrollbar" id="style-1" onclick="expandMenu()">
+      
+<ul>
+  
+<li>                                 
+<a onclick="toggleiniciar()">
+<i class="fa fa-user fa-lg"></i>
+<span class="nav-text">Iniciar</span>
+</a>
+</li>   
+
+    
+<li>                                 
+<a  >
+<i class="fa fa-envelope-o fa-lg"></i>
+<span class="nav-text">Contactar</span>
+</a>
+</li>   
+  
+                           
+  
+</li>
+<li class="darkerlishadow">
+<a onclick="toggleactualizar()">
+<i class="fa fa-clock-o fa-lg"></i>
+<span class="nav-text">Actualizaciones</span>
+</a>
+</li>
+  
+<li class="darkerli">
+  <a  onclick="toggleHerramientas()">
+    <i class="fa fa-desktop fa-lg"></i>
+    <span class="nav-text">Herrameientas</span>
+  </a>
+</li>
+  
+  
+  <div class="herramientas">
+    
+<li class="darkerli">
+ <a  onclick="toggleBurbuja1()">
+  <i class="fa fa-cog fa-lg"></i>
+<span class="nav-text">File Box Almanesamiento Utl</span>
+</a>
+</li>
+  
+<li class="darkerli">
+<a onclick="toggleBurbuja2()">
+  <i class="fa fa-cog fa-lg"></i>
+ <span class="nav-text">Busrlz Recortador Url</span>
+</a>
+</li>
+  
+<li class="darkerli">
+<a  onclick="toggleBurbuja3()">
+  <i class="fa fa-cog fa-lg"></i>
+<span class="nav-text">Bnapsuzz Capturador Web</span>
+</a>
+</li>
+
+<li class="darkerli">
+<a  onclick="toggleBurbuja4()">
+  <i class="fa fa-cog fa-lg"></i>
+<span class="nav-text">Bsnapzen Generador Imagenes</span>
+</a>
+</li>
+  
+<li class="darkerli">
+<a  onclick="toggleBurbuja5()">
+  <i class="fa fa-cog fa-lg"></i>
+<span class="nav-text">Secukey Generador Password</span>
+</a>
+</li>
+
+<li class="darkerli">
+<a  onclick="toggleBurbuja6()">
+  <i class="fa fa-cog fa-lg"></i>
+<span class="nav-text">Blazeshotz Filtrador Imagenes</span>
+</a>
+</li>
+  
+<li class="darkerli">
+<a  onclick="toggleBurbuja7()">
+ <i class="fa fa-cog fa-lg"></i>
+<span class="nav-text">BSZInbox Magic Correo Temporal</span>
+</a>
+</li>
+  
+
+ </div>
+  
+</ul>
+
+  
+<li>
+                                   
+<a >
+<i class="fa fa-question-circle fa-lg"></i>
+<span class="nav-text">Help</span>
+</a>
+</li>   
+    
+  
+<ul class="logout">
+<li>
+                   <a >
+                         <i class="fa fa-lightbulb-o fa-lg"></i>
+                        <span class="nav-text">
+                            BLOG 
+                        </span>
+                        
+                    </a>
+</li>  
+</ul>
+        </nav>
+        
+  
+
+			<div class="burbuja1">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://toolapikey.foroactivo.com/h12-fileboxbsz" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  
+  	<div class="burbuja1">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://fileboxbsz.foroactivo.com/h12-fileboxbsz" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  
+  	<div class="burbuja2">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://fileboxbsz.foroactivo.com/h9-busrlz" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  	<div class="burbuja3">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://fileboxbsz.foroactivo.com/h8-bnapsuzz" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  	<div class="burbuja4">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://fileboxbsz.foroactivo.com/h7-bsnapzen" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  	<div class="burbuja5">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://fileboxbsz.foroactivo.com/h5-secukey-bsz" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  	<div class="burbuja6">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://fileboxbsz.foroactivo.com/h4-blazeshotz	" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  	<div class="burbuja7">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://fileboxbsz.foroactivo.com/h3-bszinbox-magic" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  
+</body>
+</html>

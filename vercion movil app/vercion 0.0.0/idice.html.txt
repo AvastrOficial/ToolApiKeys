@@ -1,0 +1,241 @@
+<html>
+<head>
+  <!--  inicio -->
+ <!--
+    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⣹⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢁⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣤⣴⣶⣾⣿⣿⣿⣿⣶⣶⣤⣀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣿⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⡀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡅⠠⣄⠀⠀⠀⠀⢀⠔⣱⣿⠇⠀
+⠀⠀⠀⠀⠀⠀⢐⣵⡿⢷⣦⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡑⠢⡀⠀⣡⣾⣿⠏⠀⠀
+⠀⠀⠀⠓⠒⣺⣿⣿⠄⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠛⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣴⣿⣿⣿⢇⠀⠀⠀
+⠀⠀⠀⠀⣼⣿⣿⣿⣤⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⢹⣿⣿⡿⡧⠁⠀⠀⠀
+⠀⠀⠀⣼⣿⣿⡏⢈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⢀⡜⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⣹⠋⠀⠀⠀⠀⠀⠀
+⠀⠀⢰⣿⣿⣿⣄⢾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠐⣒⡛⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⢤⣾⣿⣿⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⠛⠻⢿⣿⣿⣿⣿⣿⣿⣿⠉⠓⣼⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⠁⠀⠀⡀⢉⣽⢆⠀⣾⠿⢿⣿⠟⠟⠛⢷⣿⣿⣿⣿⡷⡄⠀⠀⠀⠀⠀
+⠀⠀⢻⣿⣿⣿⣿⣿⣿⠿⢿⣿⣿⣿⣿⣿⣿⣿⠛⠤⣤⠤⠧⠘⠛⠚⠆⠀⠀⠋⠁⣄⣨⡿⠀⢹⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⢸⣿⣿⣿⣟⡟⠛⣟⣹⠿⣿⣿⣿⣿⣿⠿⣷⢛⡽⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⠋⠁⡠⢼⣿⣟⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠘⣿⣿⣿⣿⣿⣦⠘⣿⣄⠀⠙⣿⣿⠿⠷⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠚⢻⣳⡟⠂⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢹⣿⣿⣿⣿⣿⣷⣜⠛⠒⠤⣽⣿⡄⠀⠀⠀⠀⠀⠀⣰⣖⢒⣶⣢⠤⠿⣄⠀⠀⠀⠀⠀⣼⡟⢱⠈⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣷⣤⣶⣿⣿⢷⣄⠀⠀⠀⠀⠀⣿⡿⣿⣿⣿⣿⡀⠻⡟⠀⠀⠀⣰⣿⡇⠘⡄⠀⠀⠀⠀⠀⠀
+⠀⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡈⠀⠀⠀⠀⠀⠙⢄⡈⠉⠹⣿⣧⠀⠘⢦⣠⣾⡿⠿⡇⠀⢻⠢⠀⠀⠀⠀⠀
+⢀⡾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠲⠄⠀⠀⠀⠀⠀⠈⠉⠚⠋⠁⠳⣄⡸⠉⡟⠀⢀⡜⣄⡀⠧⡑⢄⠀⠀⠀
+⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⣠⣄⣤⣄⣀⡀⠀⠀⢀⣴⣿⠁⢸⠀⠀⣸⣤⠤⠀⠀⢱⡀⢢⠀⠀
+⠀⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⠛⠛⢿⣿⣿⣻⡟⠻⣿⣿⣿⣿⣿⣿⣤⣿⣿⣿⣿⣿⣿⡗⠉⠉⣋⣵⠓⡤⠄⠀⠀⠱⡀⠃⠀
+⠀⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⡶⠆⠩⠥⣙⡿⠟⠉⠿⠋⠉⠙⢿⣿⠀⠐⢲⠗⠙⠻⣿⡄⠀⠀⠀⠑⡄⠀
+⠀⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⣇⠀⠀⠀⠀⠉⠢⠀⠀⠀⠠⠒⠉⠉⢣⡀⠊⠀⠀⠀⠹⠷⡀⠀⠀⠀⠸⡀
+⠀⠌⢿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣄⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⠒⠤⣄⡀⠀⠀⠈⠁⢠⣤⣤⣧
+⠀⠀⠈⢻⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠛⠛⠓⠲⠈⠈⠒⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠶⠶⠞⠛⠛⠛⠛
+⠀⠀⠀⠀⠙⡦⠤⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠒⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+    
+    
+    si deceas ver codigo visita el repositorio :
+    https://github.com/AvastrOficial/ToolApiKeys
+    -->
+  
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content=="IE=edge"/>
+<meta name="google" value="notranslate"/>
+<title>ToolApiKey</title>
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+</div>
+  <nav class="main-menu" >  
+ <div>
+    <a class="logo" href="http://startific.com">
+    </a> 
+  </div> 
+<div class="settings"></div>
+<div class="scrollbar" id="style-1" onclick="expandMenu()">
+      
+<ul>
+  
+<li>                                 
+<a href="http://startific.com">
+<i class="fa fa-user fa-lg"></i>
+<span class="nav-text">Iniciar</span>
+</a>
+</li>   
+
+    
+<li>                                 
+<a href="http://startific.com">
+<i class="fa fa-envelope-o fa-lg"></i>
+<span class="nav-text">Contactar</span>
+</a>
+</li>   
+  
+                           
+  
+</li>
+<li class="darkerlishadow">
+<a href="http://startific.com">
+<i class="fa fa-clock-o fa-lg"></i>
+<span class="nav-text">Actualizaciones</span>
+</a>
+</li>
+  
+<li class="darkerli">
+  <a href="http://startific.com" onclick="toggleHerramientas()">
+    <i class="fa fa-desktop fa-lg"></i>
+    <span class="nav-text">Herrameientas</span>
+  </a>
+</li>
+  
+  
+  <div class="herramientas">
+    
+<li class="darkerli">
+ <a href="http://startific.com" onclick="toggleBurbuja1()">
+  <i class="fa fa-cog fa-lg"></i>
+<span class="nav-text">File Box Almanesamiento Utl</span>
+</a>
+</li>
+  
+<li class="darkerli">
+<a href="http://startific.com" onclick="toggleBurbuja2()">
+  <i class="fa fa-cog fa-lg"></i>
+ <span class="nav-text">Busrlz Recortador Url</span>
+</a>
+</li>
+  
+<li class="darkerli">
+<a href="http://startific.com" onclick="toggleBurbuja3()">
+  <i class="fa fa-cog fa-lg"></i>
+<span class="nav-text">Bnapsuzz Capturador Web</span>
+</a>
+</li>
+
+<li class="darkerli">
+<a href="http://startific.com" onclick="toggleBurbuja4()">
+  <i class="fa fa-cog fa-lg"></i>
+<span class="nav-text">Bsnapzen Generador Imagenes</span>
+</a>
+</li>
+  
+<li class="darkerli">
+<a href="http://startific.com" onclick="toggleBurbuja5()">
+  <i class="fa fa-cog fa-lg"></i>
+<span class="nav-text">Secukey Generador Password</span>
+</a>
+</li>
+
+<li class="darkerli">
+<a href="http://startific.com" onclick="toggleBurbuja6()">
+  <i class="fa fa-cog fa-lg"></i>
+<span class="nav-text">Blazeshotz Filtrador Imagenes</span>
+</a>
+</li>
+  
+<li class="darkerli">
+<a href="http://startific.com" onclick="toggleBurbuja7()">
+ <i class="fa fa-cog fa-lg"></i>
+<span class="nav-text">BSZInbox Magic Correo Temporal</span>
+</a>
+</li>
+  
+
+ </div>
+  
+</ul>
+
+  
+<li>
+                                   
+<a href="http://startific.com">
+<i class="fa fa-question-circle fa-lg"></i>
+<span class="nav-text">Help</span>
+</a>
+</li>   
+    
+  
+<ul class="logout">
+<li>
+                   <a href="http://startific.com">
+                         <i class="fa fa-lightbulb-o fa-lg"></i>
+                        <span class="nav-text">
+                            BLOG 
+                        </span>
+                        
+                    </a>
+</li>  
+</ul>
+        </nav>
+        
+  
+
+			<div class="burbuja1">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://fileboxbsz.foroactivo.com/h3-bszinbox-magic" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  
+  	<div class="burbuja1">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://fileboxbsz.foroactivo.com/h12-fileboxbsz" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  
+  	<div class="burbuja2">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://fileboxbsz.foroactivo.com/h9-busrlz" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  	<div class="burbuja3">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://fileboxbsz.foroactivo.com/h8-bnapsuzz" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  	<div class="burbuja4">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://fileboxbsz.foroactivo.com/h7-bsnapzen" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  	<div class="burbuja5">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://fileboxbsz.foroactivo.com/h5-secukey-bsz" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  	<div class="burbuja6">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://fileboxbsz.foroactivo.com/h4-blazeshotz	" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  	<div class="burbuja7">
+  <!-- Contenido que deseas ocultar -->
+  <br>  
+  <div class="iframe-container">
+    <iframe src="https://fileboxbsz.foroactivo.com/h3-bszinbox-magic" frameborder="0" class="iframe-auto"></iframe>
+  </div>
+  <br>   
+</div>
+  
+</body>
+</html>
